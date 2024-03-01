@@ -1,0 +1,550 @@
+* {
+    padding: 0em;
+    border: 0em;
+    margin: 0em;
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen_total{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Header */
+
+
+.header_1{
+    background-color: #348dd5;
+    width: 100%;
+    height: 5em;
+    float: left;
+}
+.header_2{
+    width: 10em;
+    height: 4em;
+    margin: 0.3em;
+    float: left;
+}
+.header_3{
+    width: 8em;
+    background-color: #348dd5;
+    height: 4em;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+.miperfil{
+    width: 8em;
+    background-color: #348dd5;
+    height: 4em;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+.header_33{
+    background-color: #348dd5;
+    float: right;
+}
+.header_333{
+    width: 4em;
+    height: 5em;
+    margin: 0.1em;
+    margin-right: 0.3em;
+    float: right;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.header_a333{
+    width: 13em;
+    height: 5em;
+    margin: 0.1em;
+    margin-right: 0.3em;
+    float: right;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.header_admin{
+    width: 8em;
+    margin-left: 1em;
+    background-color: #348dd5;
+    height: 4em;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    color: red;
+    
+}
+.header_4{
+    width: 50em;
+    height: 100%;
+    margin: 0.3em;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* Portada */
+
+.portada_1{
+    background-image: url('../img/piso.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 50em;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.portada_2{
+    width: 40em;
+    height: 15em;
+    background-color: #a8d8ff;
+    float: left;
+    border: 0.2em solid black;
+    border-radius: 20px;
+    
+}
+.portada_3{
+    width: 100%;
+    height: 8em;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.portada_4{
+    width: 100%;
+    height: 7em;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.content {
+    min-height: 60em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+}
+.portada_5 {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .portada_5:hover {
+    background-color: #45a049;
+  }
+  .portada_5:active {
+    background-color: #3e8e41;
+  }
+.portada_5ro {
+    padding: 10px 20px;
+    background-color: #f12b45;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .portada_5ro:hover {
+    background-color: #ff0000;
+  }
+  .portada_5ro:active {
+    background-color: #680000;
+  }
+  .comprar {
+    padding: 10px 20px;
+    background-color: #e0f80b;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .comprar:hover {
+    background-color: #ffd900;
+  }
+  .comprar:active {
+    background-color: #3e8e41;
+  }
+.comprar {
+  padding: 10px 20px;
+  background-color: #e0f80b;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.comprar:hover {
+  background-color: #ffd900;
+}
+.comprar:active {
+  background-color: #3e8e41;
+}
+.portada_6 {
+    border: 0.1em solid;
+    width: 26em;
+    height: 2.2em;
+    background-color: white;
+}
+.portada_7{
+    font-size: 3.2em;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.portada_subirimg {
+    border: 0.1em solid;
+    width: 26em;
+    height: 2.2em;
+    background-color: white;
+}
+
+/* Login & Crear cuenta */
+
+.login_1{
+    font-weight: bold;
+}
+.login_2{
+    width: 40em;
+    height: 24em;
+    background-color: #a8d8ff;
+    float: left;
+    border: 0.2em solid black;
+    border-radius: 20px;
+    
+}
+.login_3{
+    width: 40em;
+    height: 30em;
+    background-color: #a8d8ff;
+    float: left;
+    border: 0.2em solid black;
+    border-radius: 20px;
+    
+}
+.login_33{
+    width: 40em;
+    height: 20em;
+    background-color: #a8d8ff;
+    float: left;
+    border: 0.2em solid black;
+    border-radius: 20px;
+    
+}
+.login_4{
+    width: 40em;
+    height: 35em;
+    background-color: #a8d8ff;
+    float: left;
+    border: 0.2em solid black;
+    border-radius: 20px;
+    
+}
+
+/* Separador */
+
+.separador_1{
+    width: 100%;
+    height: 5em;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+.separador_2{
+    width: 100%;
+    height: 5em;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.separador_22{
+    width: 100%;
+    height: 5em;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+/* Todos los pisos */
+
+.todo_1 {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.todo_2 {
+    width: 25em;
+    background-color: #a8d8ff;
+    border: 0.1em solid;
+    height: 40em;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-bottom: 1em;
+}
+
+.todo_3 {
+    width: 22em;
+    height: 22em;
+    margin: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.todo_titulo {
+    width: 21em;
+    height: 2em;
+    background-color: #64b9ff;
+    margin: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    font-size: 1m;
+    color: white;
+}
+
+.todo_4 {
+    width: 28em;
+    height: 2em;
+    margin: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: black;
+}
+
+.nohayresultado {
+    width: 20em;
+    height: 7em;
+    background-color: rgb(255, 145, 145);
+    font-size: 1.4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 0.1em solid;
+    border-radius: 7%;
+}
+.correcto {
+    width: 20em;
+    height: 7em;
+    text-transform: uppercase;
+    background-color: rgb(154, 255, 145);
+    font-size: 1.4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 0.1em solid;
+    border-radius: 7%;
+}
+/* Vender piso */
+
+.vender_1{
+    width: 40em;
+    height: 50em;
+    background-color: #a8d8ff;
+    float: left;
+    border: 0.2em solid black;
+    border-radius: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+
+.vender_2{
+    background-image: url('../img/piso.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 60em;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+ /* Footer */
+
+ .footer_1 {
+    background-color: #348dd5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_2 {
+    width: 100%;
+    height: 2.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_letra {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Administrador */
+
+.admin_1 {
+    background-image: url('../img/hacker.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin_11 {
+    background-image: url('../img/hacker.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin_2 {
+    width: 40em;
+    height: 10em;
+    background-color: #a8d8ff;
+    border: 0.2em solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin_3 {
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.menu2 {
+    width: 7em;
+    height: 3em;
+    border: 0.1em solid black;
+    background-color: rgb(96, 96, 255);
+    margin: 1em;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #c7c7c7ad;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.table-image {
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
